@@ -1,0 +1,11 @@
+[server]
+port=8080
+path="/admin"
+host="0.0.0.0"
+
+[web]
+theme="default"
+upload_path="static/upload"
+
+[database]
+db_type= "pgsql"
