@@ -1,0 +1,38 @@
+# ===== 编辑器/IDE 配置 =====
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.settings/
+.buildpath
+.project
+.metadata/
+
+# Visual Studio
+*.suo
+*.user
+*.js.map
+*.css.map
+
+# Vim & Emacs
+*.swp
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-*
+sublime-*
+
+# HBuilderX
+.hbuilderx/
+
+# macOS 系统文件
+.DS_Store
