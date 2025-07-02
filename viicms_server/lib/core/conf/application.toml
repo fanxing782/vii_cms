@@ -1,6 +1,0 @@
-[server]
-port=8080
-path="/admin"
-
-[database]
-db_type= "pg1sql"

@@ -1,4 +1,4 @@
 [workspace]
 members = [
-    "admin"
-, "lib/core"]
+    "server"
+, "lib/core", "lib/dborm", "lib/gather"]

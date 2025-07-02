@@ -1,11 +1,23 @@
 [server]
-port=8080
-path="/admin"
-host="0.0.0.0"
+#port=8080
+path="/vii123"
+#host="0.0.0.0"
 
-[web]
-theme="default"
-upload_path="static/upload"
+#
+#[cors]
+#enable=false
+#permissive=false
+#
+#[[cors.configuration]]
+#allowed_origins  ="*"
+#allowed_methods  ="*"
+#allowed_headers  ="*"
+#allow_credentials=false
+#
+#
+#[web]
+#theme="default"
+#admin = { path="/admin" , upload_path="static/upload"}
 
 [database]
 db_type= "pgsql"
