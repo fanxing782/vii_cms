@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "title": "Theme Demo",
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "systemTheme": "System Theme",
+  "currentTheme": "Current Theme",
+  "language": "Language",
+  "english": "English",
+  "chinese": "Chinese",
+  "sampleText": "This is a sample text"
+}

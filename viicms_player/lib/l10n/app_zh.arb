@@ -1,0 +1,12 @@
+{
+  "@@locale": "zh",
+  "title": "主题演示",
+  "lightTheme": "浅色主题",
+  "darkTheme": "深色主题",
+  "systemTheme": "系统主题",
+  "currentTheme": "当前主题",
+  "language": "语言",
+  "english": "English",
+  "chinese": "中文",
+  "sampleText": "这是一段示例文本"
+}
