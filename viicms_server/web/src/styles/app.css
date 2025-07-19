@@ -1,0 +1,21 @@
+@import './base.css';
+@import './mantineui.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+
+  html,
+  body {
+    @apply text-gray-900 bg-gray-50 dark:bg-neutral-800 dark:text-gray-200;
+  }
+
+  .using-mouse * {
+    outline: none !important;
+  }
+}

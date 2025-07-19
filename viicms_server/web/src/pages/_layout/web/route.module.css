@@ -1,0 +1,33 @@
+.header {
+  @apply border-b-0;
+}
+
+.navbar {
+  @apply border-r-0;
+  transition: width 200ms ease;
+}
+
+.navbarSection {
+  @apply px-2;
+}
+
+.navLink {
+  @apply mb-1 rounded-lg tracking-normal;
+  transition: all 200ms ease;
+}
+
+.navLinkActive {
+  &[data-active] {
+    @apply font-bold;
+  }
+}
+
+.content {
+  @apply rounded-lg p-2;
+  min-height: calc(100vh - 100px);
+  background-color: var(--mantine-color-default);
+}
+
+.footer {
+  @apply pt-2 opacity-50;
+}
